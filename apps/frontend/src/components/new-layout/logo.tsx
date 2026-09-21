@@ -8,7 +8,7 @@ export const Logo = () => {
       height="60"
       viewBox="0 0 60 60"
       role="img"
-      aria-label="socialhub"
+      aria-label="sh."
       className="mt-[8px]"
     >
       <text
@@ -33,7 +33,17 @@ export const Logo = () => {
       >
         h
       </text>
-      <circle cx="50" cy="15" r="2.4" fill="var(--socialhub-wordmark-dot)" />
+      <text
+        x="49"
+        y="40"
+        fill="var(--socialhub-wordmark-dot)"
+        fontFamily="Plus Jakarta Sans, Arial, sans-serif"
+        fontSize="27"
+        fontWeight="600"
+        letterSpacing="-2.4"
+      >
+        .
+      </text>
     </svg>
   );
 };

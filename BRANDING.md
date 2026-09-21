@@ -4,8 +4,8 @@ This public fork is based on Postiz `v2.10.1` and keeps the upstream application
 
 The customization includes:
 
-- `social.hub` wordmark with three gray tones derived from the Studio website;
-- `sh` square mark for compact navigation areas;
+- `socialhub.` wordmark with three gray tones derived from the Studio website;
+- `sh.` square mark for compact navigation areas;
 - `socialhub-favicon.svg` for the browser favicon;
 - SocialHub labels in the authentication, billing, API, webhook, FAQ, and assistant UI;
 - page titles and preview assets updated to use SocialHub branding.
