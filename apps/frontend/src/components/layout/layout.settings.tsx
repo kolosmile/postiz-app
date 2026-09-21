@@ -96,7 +96,7 @@ export const LayoutSettings = ({ children }: { children: ReactNode }) => {
               >
                 <div className="min-w-[55px]">
                   <Image
-                    src="/socialhub-mark.svg"
+                    src="/logo.svg?v=2.10.5"
                     width={55}
                     height={53}
                     alt="Logo"

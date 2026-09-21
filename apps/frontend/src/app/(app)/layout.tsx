@@ -40,7 +40,7 @@ export default async function AppLayout({ children }: { children: ReactNode }) {
   return (
     <html>
       <head>
-        <link rel="icon" href="/socialhub-favicon-v2.svg" type="image/svg+xml" />
+        <link rel="icon" href="/socialhub-favicon.svg?v=2.10.5" type="image/svg+xml" />
       </head>
       <body
         className={clsx(jakartaSans.className, 'dark text-primary !bg-primary')}
