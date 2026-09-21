@@ -6,6 +6,35 @@
 @import '@uppy/core/dist/style.css';
 @import '@uppy/dashboard/dist/style.css';
 
+.socialhub-wordmark {
+  display: inline-flex;
+  align-items: baseline;
+  color: var(--socialhub-wordmark-main);
+  font-size: 23px;
+  font-weight: 760;
+  letter-spacing: -0.055em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.socialhub-wordmark__social {
+  color: var(--socialhub-wordmark-main);
+}
+
+.socialhub-wordmark__dot {
+  color: var(--socialhub-wordmark-dot);
+  font-style: normal;
+}
+
+.socialhub-wordmark__hub {
+  color: var(--socialhub-wordmark-secondary);
+  font-weight: 760;
+}
+
+.socialhub-wordmark--large {
+  font-size: 40px;
+}
+
 body {
   background: var(--new-bgColor) !important;
   color: var(--new-btn-text);

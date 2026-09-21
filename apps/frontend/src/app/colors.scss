@@ -1,5 +1,8 @@
 :root {
   .dark {
+    --socialhub-wordmark-main: #f1f0ec;
+    --socialhub-wordmark-dot: #5a5d5a;
+    --socialhub-wordmark-secondary: #a1a39f;
     --new-bgColor: #0e0e0e;
     --new-bgColorInner: #1a1919;
     --new-bgLineColor: #212121;
@@ -26,6 +29,9 @@
     --popup-color: rgba(65, 64, 66, 0.3);
   }
   .light {
+    --socialhub-wordmark-main: #171817;
+    --socialhub-wordmark-dot: #a8aaa6;
+    --socialhub-wordmark-secondary: #686a67;
     --new-bgColor: #f0f2f4;
     --new-bgColorInner: #ffffff;
     --new-bgLineColor: #e7e9eb;
