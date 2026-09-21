@@ -57,7 +57,7 @@ export default async function Auth({
                 >
                   <div className="max-w-[55px]">
                     <Image
-                      src={'/postiz.svg'}
+                      src={'/socialhub-mark.svg'}
                       width={55}
                       height={55}
                       alt="Logo"
