@@ -21,16 +21,20 @@ export const LogoutComponent = () => {
         t('yes_logout', 'Yes logout')
       )
     ) {
-      if (!isSecured) {
-        setCookie('auth', '', -10);
-      } else {
-        await fetch('/user/logout', {
-          method: 'POST',
-        });
+      try {
+        if (!isSecured) {
+          setCookie('auth', '', -10);
+        } else {
+          await fetch('/user/logout', {
+            method: 'POST',
+          });
+        }
+      } finally {
+        // This route also clears the frontend auth cookie and redirects to login.
+        window.location.href = '/auth/logout';
       }
-      window.location.href = '/';
     }
-  }, []);
+  }, [fetch, isSecured, t]);
   return (
     <div className="text-red-400 cursor-pointer" onClick={logout}>
       {t('logout_from', 'Logout from')}
